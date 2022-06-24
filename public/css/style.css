@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    position: relative;
+    height: 100vh; /*vh = view height*/
+    width: 100vw; /*vw = view width*/
+    background: url(../image/sakura-bg-medium-full.jpg); /*I used a sakura bloom bg becaused I love sakuras*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 178px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #6275bb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 786px;
+    display: flex;
+    background-color: #36393f;
+    color: #fff;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.left {
+    width: 100%;
+    margin-right: 75px;   
+}
+
+.left .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left .header {
+    text-align: center;
+}
+
+.left .header h2 {
+    margin-bottom: 5px;
+}
+
+.left .header p {
+    margin-bottom: 15px;
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+}
+
+.left .form label {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: rgb(182, 182, 182);
+}
+
+.left .form input {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #313339;
+    outline: none;
+    border: 1px solid rgb(35, 35, 35);
+    color: #fff;
+    font-size: 17px;
+    padding: 0 10px;
+    margin-bottom: 3px;
+}
+
+.left .form input:focus{
+    border: 1px solid #6275bb;
+}
+
+.left .form span {
+    letter-spacing: -.2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.left .form button {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: #6275bb;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.left .form button:hover {
+    background-color: #50609b;
+}
+
+.left .form .singin {
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.right h2 {
+    margin-bottom: 10px;
+}
+
+.right p {
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.errorinput {
+    border: 2px solid rgb(207, 53, 53) !important;
+}
+
+.nonerrorinput {
+    border: 2px solid #00a900 !important;
+}

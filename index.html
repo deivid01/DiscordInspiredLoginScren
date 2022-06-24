@@ -1,0 +1,45 @@
+<!--this project was done as follows: The entire form was seen as a main container, the right part where you have the inputs and the like, a box called "right" and on the left box called "left".-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Discord login clone</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="header">
+                <h2>Welcome back!</h2>
+                <p>We are very excited to see you again!</p>
+            </div>
+            <form action="" class="form">
+                <label for="email">E-MAIL OR PHONE NUMBER</label>
+                <input type="text" name="text" id="email" class="email">
+
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" class="password">
+
+                <span class="forgot"><a href="">Forgot password?</a></span>
+
+                <button id="button">Log in</button>
+                
+                <div class="singin">
+                    <p>Need a account?<span> <a href="">Sing in</a> </span></p>
+                </div>
+            </form>
+        </div>
+        <div class="right">
+            <img src="public/image/qrcode.png" alt="QR Code">
+            <h2>Login with QR Code</h2>
+            <p>Scan this with <b>your cel cam</b> to login.</p>
+        </div>
+    </div> 
+    <script src="public/js/script.js"></script>     
+</body>
+</html>
+
